@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AOSC Version Helper
+Name[zh_CN]=AOSC 版本助手
+Comment=Check version of AOSC OS2 release
+Comment[zh_CN]=检查 AOSC OS2 的版本
+Exec=AOSC-VersionHelper
+Icon=checkbox
+Terminal=false
+Categories=System;
+StartupNotify=true
+

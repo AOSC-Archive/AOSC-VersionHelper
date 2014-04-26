@@ -1,0 +1,5 @@
+PKGNAME=aosc-versionhelper
+PKGVER=0-os2
+PKGSEC=utils
+PKGDEP="qt-4"
+PKGDES="check your AOSC OS2 version"

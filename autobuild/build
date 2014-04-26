@@ -1,0 +1,5 @@
+qmake
+make $ABMK
+mkdir -p abdist/usr/{bin,share/applications}
+cp -av AOSC-VersionHelper abdist/usr/bin/
+cp -av AOSC-VersionHelper.desktop abdist/usr/share/applications/
