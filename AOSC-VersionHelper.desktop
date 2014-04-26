@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=AOSC Version Helper
-Name[zh_CN]=AOSC 版本助手
+Name[zh_CN]=关于 AOSC OS2
 Comment=Check version of AOSC OS2 release
 Comment[zh_CN]=检查 AOSC OS2 的版本
 Exec=AOSC-VersionHelper
