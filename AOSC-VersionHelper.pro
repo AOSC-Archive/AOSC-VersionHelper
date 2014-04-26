@@ -15,7 +15,7 @@ QML_IMPORT_PATH =
 # CONFIG += qdeclarative-boostable
 
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp
+SOURCES += main.cpp i18n.cpp
 
 # Installation path
 # target.path =
@@ -24,7 +24,7 @@ SOURCES += main.cpp
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
 qtcAddDeployment()
 
-HEADERS +=
+HEADERS += i18n.h
 
 TRANSLATIONS = translations/*.ts
 CODECFORSRC = UTF-8
