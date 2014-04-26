@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+  <file>qml/AOSC-VersionHelper</file>
+  <file>qml/AOSC-VersionHelper/images</file>
+  <file>qml/AOSC-VersionHelper/images/OS2.png</file>
+  <file>qml/AOSC-VersionHelper/main.qml</file>
+  <file>translations/zh_CN.UTF-8.qm</file>
+  <file>translations/zh_TW.UTF-8.qm</file>
+</qresource>
+</RCC>
