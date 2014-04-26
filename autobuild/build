@@ -2,6 +2,6 @@ qmake
 make $ABMK
 mkdir -p abdist/usr/{bin,share/{AOSC,applications}}
 cp -av AOSC-VersionHelper abdist/usr/share/AOSC/
-cp -rv qml/AOSC-VersionHelper/qml abdist/usr/share/AOSC/
+cp -rv qml/ abdist/usr/share/AOSC/
 ln -sv ../share/AOSC/AOSC-VersionHelper abdist/usr/bin/AOSC-VersionHelper
 cp -av AOSC-VersionHelper.desktop abdist/usr/share/applications/
