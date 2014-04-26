@@ -8,8 +8,8 @@ import Qt 4.7
 Item {
 
     id: main
-    width: 750
-    height: 768
+    width: 800
+    height: 640
 
     property int stage
 
@@ -17,8 +17,8 @@ Item {
 
         id: branding
 
-        width: 256
-        height: 256
+        width: 200
+        height: 200
 
         x: (parent.width - 2 * width) / 12
         y: (parent.height - 2.3 * height) / 12
@@ -40,7 +40,7 @@ Item {
                 properties: "rotation"
                 from: 0
                 to: 360
-                duration: 1250
+                duration: 4000
 
                 loops: Animation.Infinite
                 running: true
@@ -52,10 +52,10 @@ Item {
         id: distroName
 
         width: 350
-        height: 72
+        height: 150
 //     color: "yellow"
 
-        x: (parent.width - width) / 1.25
+        x: (parent.width - width) / 1.55
         y: (parent.height - 2.3 * height) / 8.5
 
         Text {
@@ -63,7 +63,7 @@ Item {
 
             text: qsTr("<b>AOSC OS2</b>")
             font.family: "Sans"
-            font.pointSize: 64
+            font.pointSize: 75
             color: "Grey"
         }
     }
@@ -71,7 +71,7 @@ Item {
     Rectangle {
         id: distroVariant
 
-        width: 700
+        width: 750
         height: 36
 //     color: "yellow"
 
@@ -115,7 +115,7 @@ Item {
     Rectangle {
         id: distroVersion
 
-        width: 700
+        width: 750
         height: 36
 //     color: "yellow"
 
@@ -148,7 +148,7 @@ Item {
                 Text {
                     id: versionCol2
 
-                    text: qsTr("Beta 4 (May)")
+                    text: qsTr("Beta 4 (May 2014)")
                     font.family: "Sans"
                     font.pointSize: 20
                 }
@@ -159,7 +159,7 @@ Item {
     Rectangle {
         id: distroCodename
 
-        width: 700
+        width: 750
         height: 36
 //     color: "yellow"
 
@@ -203,12 +203,12 @@ Item {
     Rectangle {
         id: distroInfo
 
-        width: 700
+        width: 750
         height: 36
 //     color: "yellow"
 
         x: (parent.width - 0.5 * width) / 12
-        y: (parent.height - height) / 1.5
+        y: (parent.height - height) / 1.55
 
         property string text
 
@@ -230,8 +230,8 @@ Item {
         }
 
         Component.onCompleted: {
-            if (text_field.paintedWidth > 680) {
-                 width = 680
+            if (text_field.paintedWidth > 750) {
+                 width = 750
              } else {
                  width = text_field.paintedWidth
              }

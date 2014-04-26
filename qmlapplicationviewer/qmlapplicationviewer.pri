@@ -155,7 +155,7 @@ android-no-sdk {
     !isEmpty(target.path) {
         installPrefix = $${target.path}
     } else {
-        installPrefix = /usr/
+        installPrefix = /opt/$${TARGET}
     }
     for(deploymentfolder, DEPLOYMENTFOLDERS) {
         item = item$${deploymentfolder}
