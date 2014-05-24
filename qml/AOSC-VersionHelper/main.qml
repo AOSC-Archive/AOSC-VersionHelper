@@ -148,7 +148,7 @@ Item {
                 Text {
                     id: versionCol2
 
-                    text: qsTr("Beta 4 (May 2014)")
+                    text: qsTr("RC0 (June 2014)")
                     font.family: "Sans"
                     font.pointSize: 20
                 }
@@ -192,7 +192,7 @@ Item {
                 Text {
                     id: codenameCol2
 
-                    text: qsTr("Schrödinger Equation")
+                    text: qsTr("Lycanthropy")
                     font.family: "Sans"
                     font.pointSize: 20
                 }
