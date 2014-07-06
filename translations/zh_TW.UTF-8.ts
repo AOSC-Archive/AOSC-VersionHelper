@@ -25,17 +25,17 @@
     </message>
     <message>
         <location filename="../qml/AOSC-VersionHelper/main.qml" line="151"/>
-        <source>RC0 (June 2014)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/AOSC-VersionHelper/main.qml" line="195"/>
-        <source>Lycanthropy</source>
+        <source>Final (July 2014)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/AOSC-VersionHelper/main.qml" line="180"/>
         <source>&lt;b&gt;Codename:&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/AOSC-VersionHelper/main.qml" line="195"/>
+        <source>Doge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

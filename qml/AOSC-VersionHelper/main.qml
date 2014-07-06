@@ -148,7 +148,7 @@ Item {
                 Text {
                     id: versionCol2
 
-                    text: qsTr("RC0 (June 2014)")
+                    text: qsTr("Final (July 2014)")
                     font.family: "Sans"
                     font.pointSize: 20
                 }
@@ -192,7 +192,7 @@ Item {
                 Text {
                     id: codenameCol2
 
-                    text: qsTr("Lycanthropy")
+                    text: qsTr("Doge")
                     font.family: "Sans"
                     font.pointSize: 20
                 }

@@ -25,13 +25,21 @@
     </message>
     <message>
         <location filename="../qml/AOSC-VersionHelper/main.qml" line="151"/>
-        <source>RC0 (June 2014)</source>
-        <translation>RC0 (2014 年 6 月)</translation>
+        <source>Final (July 2014)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/AOSC-VersionHelper/main.qml" line="195"/>
+        <source>Doge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RC0 (June 2014)</source>
+        <translation type="obsolete">RC0 (2014 年 6 月)</translation>
+    </message>
+    <message>
         <source>Lycanthropy</source>
-        <translation>狼人</translation>
+        <translation type="obsolete">狼人</translation>
     </message>
     <message>
         <source>Beta 4 (May)</source>
